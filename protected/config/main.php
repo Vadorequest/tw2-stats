@@ -83,7 +83,7 @@ return array(
 			'connectionString' => 'mysql:host=localhost:3306;dbname=tw2',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => 'yZ5Zw4MBALI1',
+			'password' => '',
                     /*'connectionString' => 'mysql:host=localhost;dbname=firstalexxx',
                     'username' => 'firstalexxx',
                     'password' => 'jJDAUnnfAwjqH4yG',*/
