@@ -2,7 +2,7 @@
 
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'TW2 stats by Imagine Dragon',
+	'name'=>'TW2 stats by Vadorequest',
 
         'sourceLanguage' => 'en',
         'language' => 'en',
