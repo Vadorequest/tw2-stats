@@ -1,0 +1,155 @@
+body {
+    padding: 20px 0;
+}
+
+.w200 {
+    width: 128px;
+    text-align: right;
+}
+.gray {
+    color: gray;
+}
+
+input[type=radio],
+input[type=checkbox] {
+    margin: -4px 0 0;
+}
+
+#world-map .form-group {
+    margin-bottom: 5px;
+}
+.row.well {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container {
+    width: 1170px;
+}
+
+/**/
+.ui-helper-hidden-accessible {
+    display: none;
+}
+.ui-autocomplete {
+    background: #fff;
+    list-style: none;
+    padding: 0px;
+    width: 250px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-shadow: 0 0 2px #aaa;
+    overflow: hidden;
+    z-index: 10001 !important;
+}
+.ui-autocomplete .ui-menu-item a {
+    display: block;
+    padding: 2px 13px;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+.ui-autocomplete .ui-menu-item a:hover {
+    background-image: -webkit-linear-gradient(top,#428bca 0,#2d6ca2 100%);
+    background-image: linear-gradient(to bottom,#428bca 0,#2d6ca2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff2d6ca2', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-color: #2b669a;
+    color: #fff;
+}
+#_players .input-group-addon,
+#_tribes .input-group-addon {
+    width: 172px;
+    text-align: left;
+}
+.ui-tooltip {
+    font-size: 14px;
+    border-color: #333;
+    box-shadow: 0 0 6px #333;
+    padding: 10px 10px;
+}
+
+/**/
+#map {
+    position: relative;
+    background: #58761B;
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.vil {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #823C0A;
+    cursor: pointer;
+    border-radius: 100px;
+}
+.vil_barbarian {
+    background: #969696;
+}
+/**/
+
+.mini_header {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 14px;
+    text-align: right;
+    font-weight: bold;
+    padding: 0 15px;
+}
+.hiddenFormData {
+    display: none;
+}
+.checkbox_right {
+    text-align: right;
+}
+.checkbox_right input[type="checkbox"] {
+    float: right;
+    margin-left: 20px;
+}
+input[type="checkbox"] {
+    cursor: pointer;
+}
+.loadedInfo {
+    display: none;
+}
+.mini_header2 {
+    border-bottom: 1px solid #DDD;
+    margin-bottom: 14px;
+    padding: 0 15px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    font-size: 16px;
+}
+.dl-horizontal dt {
+    width: 200px;
+}
+.dl-horizontal dd {
+    margin-left: 220px;
+}
+.chooseTribe,
+.choosePlayer {
+    text-decoration: underline;
+}
+.chooseTribe:hover, 
+.choosePlayer:hover {
+    text-decoration: none;
+}
+
+.summary {
+    text-align: right;
+}
+.server_date {
+    position: relative;
+    top: 15px;
+    left: 4px;
+}
+.pagination-right {
+    float: right;
+    margin: 10px 0;
+}
+.ui-tooltip {
+    max-width: 600px !important;
+}
