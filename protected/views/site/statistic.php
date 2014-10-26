@@ -50,6 +50,29 @@
             </ul>
         </li>
         <li>
+            <strong>Beta - zz1 (Rudimentum)</strong>
+            <?php
+                $tribes = Yii::app()->db->createCommand()
+                    ->select('COUNT(*)')
+                    ->from('tribe_zz1')
+                    ->queryAll();
+                $characters = Yii::app()->db->createCommand()
+                    ->select('COUNT(*)')
+                    ->from('character_zz1')
+                    ->queryAll();
+                $villages = Yii::app()->db->createCommand()
+                    ->select('COUNT(*)')
+                    ->from('village_zz1')
+                    ->queryAll();
+            ?>
+            <ul>
+                <li>Last update completed: <?= round((time()-$this->config->last_update_zz1)/60) ?> mins ago.</li>
+                <li>Tribes: <?= $tribes[0]['COUNT(*)'] ?></li>
+                <li>Players: <?= $characters[0]['COUNT(*)'] ?></li>
+                <li>Villages: <?= $villages[0]['COUNT(*)'] ?></li>
+            </ul>
+        </li>
+        <li>
             <strong>En - en1 (Alnwick)</strong>
             <?php
                 $tribes = Yii::app()->db->createCommand()
@@ -96,6 +119,29 @@
             </ul>
         </li>
         <li>
+            <strong>En - en3 (Castel del Monte)</strong>
+            <?php
+                $tribes = Yii::app()->db->createCommand()
+                    ->select('COUNT(*)')
+                    ->from('tribe_en3')
+                    ->queryAll();
+                $characters = Yii::app()->db->createCommand()
+                    ->select('COUNT(*)')
+                    ->from('character_en3')
+                    ->queryAll();
+                $villages = Yii::app()->db->createCommand()
+                    ->select('COUNT(*)')
+                    ->from('village_en3')
+                    ->queryAll();
+            ?>
+            <ul>
+                <li>Last update completed: <?= round((time()-$this->config->last_update_en3)/60) ?> mins ago.</li>
+                <li>Tribes: <?= $tribes[0]['COUNT(*)'] ?></li>
+                <li>Players: <?= $characters[0]['COUNT(*)'] ?></li>
+                <li>Villages: <?= $villages[0]['COUNT(*)'] ?></li>
+            </ul>
+        </li>
+        <li>
             <strong>De - de1 (Alnwick)</strong>
             <?php
                 $tribes = Yii::app()->db->createCommand()
@@ -113,6 +159,29 @@
             ?>
             <ul>
                 <li>Last update completed: <?= round((time()-$this->config->last_update_de1)/60) ?> mins ago.</li>
+                <li>Tribes: <?= $tribes[0]['COUNT(*)'] ?></li>
+                <li>Players: <?= $characters[0]['COUNT(*)'] ?></li>
+                <li>Villages: <?= $villages[0]['COUNT(*)'] ?></li>
+            </ul>
+        </li>
+        <li>
+            <strong>De - de2 (Bastille)</strong>
+            <?php
+                $tribes = Yii::app()->db->createCommand()
+                    ->select('COUNT(*)')
+                    ->from('tribe_de2')
+                    ->queryAll();
+                $characters = Yii::app()->db->createCommand()
+                    ->select('COUNT(*)')
+                    ->from('character_de2')
+                    ->queryAll();
+                $villages = Yii::app()->db->createCommand()
+                    ->select('COUNT(*)')
+                    ->from('village_de2')
+                    ->queryAll();
+            ?>
+            <ul>
+                <li>Last update completed: <?= round((time()-$this->config->last_update_de2)/60) ?> mins ago.</li>
                 <li>Tribes: <?= $tribes[0]['COUNT(*)'] ?></li>
                 <li>Players: <?= $characters[0]['COUNT(*)'] ?></li>
                 <li>Villages: <?= $villages[0]['COUNT(*)'] ?></li>
@@ -166,6 +235,29 @@
             </ul>
         </li>
         <li>
+            <strong>Fr - fr2 (Bastille)</strong>
+            <?php
+                $tribes = Yii::app()->db->createCommand()
+                    ->select('COUNT(*)')
+                    ->from('tribe_fr2')
+                    ->queryAll();
+                $characters = Yii::app()->db->createCommand()
+                    ->select('COUNT(*)')
+                    ->from('character_fr2')
+                    ->queryAll();
+                $villages = Yii::app()->db->createCommand()
+                    ->select('COUNT(*)')
+                    ->from('village_fr2')
+                    ->queryAll();
+            ?>
+            <ul>
+                <li>Last update completed: <?= round((time()-$this->config->last_update_fr2)/60) ?> mins ago.</li>
+                <li>Tribes: <?= $tribes[0]['COUNT(*)'] ?></li>
+                <li>Players: <?= $characters[0]['COUNT(*)'] ?></li>
+                <li>Villages: <?= $villages[0]['COUNT(*)'] ?></li>
+            </ul>
+        </li>
+        <li>
             <strong>Pl - pl1 (Alnwick)</strong>
             <?php
                 $tribes = Yii::app()->db->createCommand()
@@ -189,7 +281,30 @@
             </ul>
         </li>
         <li>
-            <strong>Ru - ru1 (Мир 1)</strong>
+            <strong>Pl - pl2 (Bastille)</strong>
+            <?php
+                $tribes = Yii::app()->db->createCommand()
+                    ->select('COUNT(*)')
+                    ->from('tribe_pl2')
+                    ->queryAll();
+                $characters = Yii::app()->db->createCommand()
+                    ->select('COUNT(*)')
+                    ->from('character_pl2')
+                    ->queryAll();
+                $villages = Yii::app()->db->createCommand()
+                    ->select('COUNT(*)')
+                    ->from('village_pl2')
+                    ->queryAll();
+            ?>
+            <ul>
+                <li>Last update completed: <?= round((time()-$this->config->last_update_pl2)/60) ?> mins ago.</li>
+                <li>Tribes: <?= $tribes[0]['COUNT(*)'] ?></li>
+                <li>Players: <?= $characters[0]['COUNT(*)'] ?></li>
+                <li>Villages: <?= $villages[0]['COUNT(*)'] ?></li>
+            </ul>
+        </li>
+        <li>
+            <strong>Ru - ru1 (Alnwick)</strong>
             <?php
                 $tribes = Yii::app()->db->createCommand()
                     ->select('COUNT(*)')

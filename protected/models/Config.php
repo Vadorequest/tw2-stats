@@ -27,30 +27,56 @@ class Config extends CActiveRecord
 		return array(
 			array('last_update_zz2,'
                             . 'last_update_zz3,'
+                            . 'last_update_zz1,'
+                            
                             . 'last_update_en1,'
                             . 'last_update_en2,'
+                            . 'last_update_en3,'
+                            
                             . 'last_update_de1,'
+                            
                             . 'last_update_nl1,'
+                            
                             . 'last_update_fr1,'
+                            . 'last_update_fr2,'
+                            
                             . 'last_update_pl1,'
+                            . 'last_update_pl2,'
+                            
                             . 'last_update_ru1,'
                             
                             . 'last_update_br1,'
+                            
                             . 'last_update_us1,'
+                            
                             . 'last_update_es1,'
+                            
                             . 'last_update_it1,'
+                            
                             . 'last_update_gr1,'
+                            
                             . 'last_update_cz1,'
+                            
                             . 'last_update_pt1,'
+                            
                             . 'last_update_se1'
                             
                             . 'last_update_no1,'
+                            
                             . 'last_update_dk1,'
+                            
                             . 'last_update_fi1,'
+                            
                             . 'last_update_sk1,'
+                            
                             . 'last_update_ro1,'
+                            
                             . 'last_update_hu1,'
-                            . 'last_update_ar1'
+                            
+                            . 'last_update_ar1,'
+                            
+                            . 'last_update_de2'
+                            
                             
                             . '', 'numerical', 'integerOnly'=>true),
 			// The following rule is used by search().

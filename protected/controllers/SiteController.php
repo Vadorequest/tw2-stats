@@ -414,7 +414,9 @@ class SiteController extends Controller
                 ->select('last_update_'.$world)
                 ->from('config')
                 ->queryAll();
-            $times[$world] = $time[0]['last_update_'.$world];
+            if ( $world=='ru1' ) {
+                $times[$world] = $time[0]['last_update_'.$world];
+            }  
         }
         asort($times);
         echo key($times);

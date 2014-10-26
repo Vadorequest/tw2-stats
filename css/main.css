@@ -153,3 +153,7 @@ input[type="checkbox"] {
 .ui-tooltip {
     max-width: 600px !important;
 }
+ul.dropdown-menu {
+    max-height: 400px;
+    overflow: auto;
+}

@@ -64,6 +64,10 @@ class Controller extends CController
                             'name'=>'zz3',
                             'fullName'=>'Experior',
                         ),
+                        array(
+                            'name'=>'zz1',
+                            'fullName'=>'Rudimentum',
+                        ),
                     ),
                 ),
                 
@@ -79,6 +83,10 @@ class Controller extends CController
                             'name'=>'en2',
                             'fullName'=>'Bastille',
                         ),
+                        array(
+                            'name'=>'en3',
+                            'fullName'=>'Castel del Monte',
+                        ),
                     ),
                 ),
                 
@@ -89,6 +97,10 @@ class Controller extends CController
                         array(
                             'name'=>'de1',
                             'fullName'=>'Alnwick',
+                        ),
+                        array(
+                            'name'=>'de2',
+                            'fullName'=>'Bastille',
                         ),
                     ),
                 ),
@@ -112,6 +124,10 @@ class Controller extends CController
                             'name'=>'fr1',
                             'fullName'=>'Alnwick',
                         ),
+                        array(
+                            'name'=>'fr2',
+                            'fullName'=>'Bastille',
+                        ),
                     ),
                 ),
                 
@@ -123,6 +139,10 @@ class Controller extends CController
                             'name'=>'pl1',
                             'fullName'=>'Alnwick',
                         ),
+                        array(
+                            'name'=>'pl2',
+                            'fullName'=>'Bastille',
+                        ),
                     ),
                 ),
                 
@@ -132,7 +152,7 @@ class Controller extends CController
                     'worlds'=>array(
                         array(
                             'name'=>'ru1',
-                            'fullName'=>'Мир 1',
+                            'fullName'=>'Alnwick',
                         ),
                     ),
                 ),

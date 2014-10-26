@@ -375,6 +375,9 @@
                             case 'en2':
                                 echo round((time()-$this->config->last_update_en2)/60);
                                 break;
+                            case 'en3':
+                                echo round((time()-$this->config->last_update_en3)/60);
+                                break;
                             case 'de1':
                                 echo round((time()-$this->config->last_update_de1)/60);
                                 break;
@@ -384,8 +387,14 @@
                             case 'fr1':
                                 echo round((time()-$this->config->last_update_fr1)/60);
                                 break;
+                            case 'fr2':
+                                echo round((time()-$this->config->last_update_fr2)/60);
+                                break;
                             case 'pl1':
                                 echo round((time()-$this->config->last_update_pl1)/60);
+                                break;
+                            case 'pl2':
+                                echo round((time()-$this->config->last_update_pl2)/60);
                                 break;
                             case 'ru1':
                                 echo round((time()-$this->config->last_update_ru1)/60);
@@ -438,6 +447,13 @@
                                 echo round((time()-$this->config->last_update_ar1)/60);
                                 break;
                             
+                            case 'zz1':
+                                echo round((time()-$this->config->last_update_zz1)/60);
+                                break;
+                            case 'de2':
+                                echo round((time()-$this->config->last_update_de2)/60);
+                                break;
+                            
                             default:
                                 echo '?';
                         }
@@ -447,7 +463,7 @@
                     <?= Yii::powered() ?>
                 </div>
                 <div class="col-lg-4" style="text-align: right;">
-                    <i>With questions and suggestions on Skype: <strong>firstalexxx</strong></i>
+                    <!--i>With questions and suggestions on Skype: <strong>firstalexxx</strong></i-->
                 </div>
             </div>
         </div>
